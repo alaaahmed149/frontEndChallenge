@@ -1,0 +1,129 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    background-color: rgb(230, 238, 245);
+    font-family: Karla;
+}
+
+.theCard {
+    /*margin-top: 120px;
+    margin-left: 400px;*/
+    border-radius: 10px;
+    overflow: hidden;
+    width: 700px;
+    height: 450px;
+    box-shadow: 2px 3px 7px -1px rgba(0,0,0,0.34);
+}
+.topPart {
+    
+    background-color: rgb(255, 253, 253);
+    width: 100%;
+    height: 45%;
+    
+    padding: 25px;
+}
+.topPart h2 {
+    
+    
+    color: hsl(179, 42%, 52%);
+}
+#yellowHeader {
+    
+    
+    color: hsl(71, 73%, 54%);
+}
+.topPart p {
+    color:hsl(218, 22%, 67%);
+}
+.bottomPart {
+    
+    width: 100%;
+    height: 55%;
+    
+}
+.bottomLeft {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 100%;
+    background-color: #3E9E9C;
+    padding: 20px;
+}
+.bottomLeft h4 {
+    color: rgb(232, 232, 232);
+    
+}
+.bottomLeft p {
+    color: rgb(232, 232, 232);
+}
+.dollarPerMonth {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    
+    text-align: left;
+}
+.dollar {
+    display: inline-block;
+    font-size: 40px;
+    width: 25%;
+    height: 100%;
+    color: rgb(232, 232, 232);
+
+}
+.perMonth {
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+}
+.perMonth P {
+    color: rgb(232, 232, 232);
+    opacity: 50%;
+}
+.signUpButton {
+    font-family: Karla;
+    font-size: 16px;
+    width: 280px;
+    height: 50px;
+    background-color: hsl(71, 73%, 54%);
+    color: rgb(232, 232, 232);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 3px 7px -1px rgba(0,0,0,0.34);
+    transition: 0.3s;
+}
+.signUpButton:hover {
+    cursor: pointer;
+    background-color: hsl(71, 49%, 38%);
+}
+.bottomRight {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 100%;
+    background-color: #4CC2C0;
+    padding: 20px;
+}
+.bottomRight h4 {
+    color: rgb(232, 232, 232);
+    padding-left: 30px;
+    font-size: 17px;
+}
+.bottomRight ul {
+    color: hsl(204, 43%, 93%);
+    list-style-type: none;
+    opacity: 80%;
+    padding-left: 30px;
+    line-height: 20px;
+}
+@media (max-width: 730px) {
+    .bottomLeft, .bottomRight, .theCard {
+        height: auto;
+        width: 100%;
+    }
+    
+}
